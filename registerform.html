@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .register-form {
+            box-shadow: 0px 0px 8px rgb(159, 157, 157);
+            width: 35%;
+            margin: auto;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid gray;
+            padding: 10px;
+            color: red;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0px;
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+        form {
+            margin: 10px 0px;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+        .btn {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            width: 250px;
+            text-align: center;
+            cursor: pointer; 
+        }
+        .btn:active {
+            cursor: progress; 
+        }
+    </style>
+</head>
+<body>
+    <div class="register-form">
+        <h1>Signup Form</h1>
+        <form action="">
+            <div class="username">
+                <label for="">Username :</label>
+                <input type="text">
+            </div>
+            <div class="email">
+                <label for="">Email :</label>
+                <input type="email">
+            </div>
+            <div class="mobile">
+                <label for="">Mobile :</label>
+                <input type="number">
+            </div>
+            <div class="password">
+                <label for="">Password :</label>
+                <input type="password">
+            </div>
+            <div class="button">
+                <input type="submit" class="btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
